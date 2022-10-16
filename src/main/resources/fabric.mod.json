@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "shotgun",
+  "version": "${version}",
+
+  "name": "Shotgun Mod",
+  "description": "基于Fabric 0.60.0开发的针对Minrctaft Java Edition 1.19.2 的ikun主题语言包模组",
+  "authors": [
+    "Jaffe2718"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Jaffe2718",
+    "sources": "https://github.com/Jaffe2718/Ikun_Sound-Fabric-0.60.0-1.19.2-MDK"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ikun/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "github.jaffe2718.ikun.IkunMod"
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+    "ikun.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

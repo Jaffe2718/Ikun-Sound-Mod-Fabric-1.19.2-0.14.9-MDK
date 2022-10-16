@@ -1,0 +1,47 @@
+{
+  "chicken_die": {
+    "subtitle": "mod.ikun.chicken_die",
+    "sounds": [
+      {
+        "name": "ikun:jinitaimei",
+        "stream": false
+      }
+    ]
+  },
+  "chicken_hurt": {
+    "subtitle": "mod.ikun.chicken_hurt",
+    "sounds": [
+      {
+        "name": "ikun:ji",
+        "stream": false
+      }
+    ]
+  },
+  "eat_chicken": {
+    "subtitle": "mod.ikun.eat_chicken",
+    "sounds": [
+      {
+        "name": "ikun:jinitaimei",
+        "stream": true
+      }
+    ]
+  },
+  "villager_die": {
+    "subtitle": "mod.ikun.villager_die",
+    "sounds": [
+      {
+        "name": "ikun:niganma",
+        "stream": false
+      }
+    ]
+  },
+  "villager_hurt": {
+    "subtitle": "mod.ikun.villager_hurt",
+    "sounds": [
+      {
+        "name": "ikun:niganma",
+        "stream": false
+      }
+    ]
+  }
+}
