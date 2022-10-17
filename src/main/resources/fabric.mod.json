@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "shotgun",
+  "id": "ikun",
   "version": "${version}",
 
-  "name": "Shotgun Mod",
-  "description": "基于Fabric 0.60.0开发的针对Minrctaft Java Edition 1.19.2 的ikun主题语言包模组",
+  "name": "Ikun Sound Mod",
+  "description": "基于Fabric 0.60.0开发的针对Minrctaft Java Edition 1.19.2 的ikun主题音效包模组",
   "authors": [
     "Jaffe2718"
   ],
