@@ -21,7 +21,7 @@ public class ItemMixin {
         if (user instanceof PlayerEntity player &&
                 item.isFood() &&
                 (item.equals(Items.CHICKEN) || item.equals(Items.COOKED_CHICKEN)) &&
-                (remainingUseTicks == stack.getMaxUseTime()-3)) {
+                (remainingUseTicks == stack.getMaxUseTime()-4)) {
             player.playSound(SoundInit.EAT_CHICKEN, 1.0F, 1.0F);
         }
     }
