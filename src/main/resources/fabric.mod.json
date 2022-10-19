@@ -13,15 +13,13 @@
     "sources": "https://github.com/Jaffe2718/Ikun_Sound-Fabric-0.60.0-1.19.2-MDK"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/ikun/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
       "github.jaffe2718.ikun.IkunMod"
-    ],
-    "client": [
     ]
   },
   "mixins": [
@@ -31,7 +29,7 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
-    "minecraft": "~1.19",
+    "minecraft": "1.19.x",
     "java": ">=17"
   },
   "suggests": {
