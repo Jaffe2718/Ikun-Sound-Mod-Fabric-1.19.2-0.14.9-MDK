@@ -15,5 +15,4 @@ public class IkunMod implements ModInitializer {
 		LOGGER.info("Hello developer Jaffe2718!");
 	}
 
-
 }
